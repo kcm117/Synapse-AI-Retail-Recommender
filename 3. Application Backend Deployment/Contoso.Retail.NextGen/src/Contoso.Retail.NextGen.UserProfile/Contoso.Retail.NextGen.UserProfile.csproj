@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contoso.DataAccess.CosmosDB.Mongo\Contoso.DataAccess.CosmosDB.Mongo.csproj" />
+  </ItemGroup>
+
+</Project>

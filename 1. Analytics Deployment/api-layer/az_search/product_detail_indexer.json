@@ -1,0 +1,22 @@
+{
+    "name": "product-detail-indexer",
+    "description": "",
+    "dataSourceName": "product-detail-data-source",
+    "skillsetName": null,
+    "targetIndexName": "product-detail-index",
+    "disabled": null,
+    "schedule": {
+      "interval": "P1D",
+      "startTime": "2020-05-21T05:26:06Z"
+    },
+    "parameters": {
+      "batchSize": null,
+      "maxFailedItems": 0,
+      "maxFailedItemsPerBatch": 0,
+      "base64EncodeKeys": false,
+      "configuration": {}
+    },
+    "fieldMappings": [],
+    "outputFieldMappings": [],
+    "cache": null
+  }

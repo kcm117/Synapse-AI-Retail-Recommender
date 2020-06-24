@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserProfile", "UserProfile", "{AF66DA30-E1F0-4350-81A0-A1C92A19AD98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductManagement", "ProductManagement", "{67F6E2BB-6342-4D4D-A3FE-009074D53CB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{BEE73A98-7D04-43EC-9C32-55155E405ACF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.DataAccess.CosmosDB.Mongo", "Contoso.DataAccess.CosmosDB.Mongo\Contoso.DataAccess.CosmosDB.Mongo.csproj", "{9CD2DB7E-52BD-4096-99B0-78400C7BC909}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Retail.NextGen.UserProfile", "Contoso.Retail.NextGen.UserProfile\Contoso.Retail.NextGen.UserProfile.csproj", "{84EC363B-CF66-442C-B89A-37BE7EE747F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Retail.NextGen.UserProfile.Host", "Contoso.Retail.NextGen.UserProfile.Host\Contoso.Retail.NextGen.UserProfile.Host.csproj", "{ED56BB47-1923-484B-95CB-0B833FDF8B3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Retail.NextGen.UserProfile.Tests", "Contoso.Retail.NextGen.UserProfile.Tests\Contoso.Retail.NextGen.UserProfile.Tests.csproj", "{52FFC741-E34B-4F80-8AE4-013791E28CF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{EF4BC2D1-F98C-44DF-823B-B0375B1C090D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.HttpHost.Moddleware.Exception", "Contoso.HttpHost.Moddleware.Exception\Contoso.HttpHost.Moddleware.Exception.csproj", "{DB424419-A266-4988-885F-1492F7A6C7B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Retail.NextGen.ProductManagement", "Contoso.Retail.NextGen.ProductManagement\Contoso.Retail.NextGen.ProductManagement.csproj", "{94ACD57F-0504-4B3A-A555-51AEA710EFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Retail.NextGen.ProductManagement.Tests", "Contoso.Retail.NextGen.ProductManagement.Tests\Contoso.Retail.NextGen.ProductManagement.Tests.csproj", "{ED55A02C-041D-481D-A5C9-218EE9D611DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Test.MSTestV2", "Contoso.Test.MSTestV2\Contoso.Test.MSTestV2.csproj", "{E04A4393-B9C5-4A89-8DD1-C728D52E6FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Retail.NextGen.ProductManagement.Host", "Contoso.Retail.NextGen.ProductManagement.Host\Contoso.Retail.NextGen.ProductManagement.Host.csproj", "{035DF09D-FC7F-48CD-B935-A4BED6D09B37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CD2DB7E-52BD-4096-99B0-78400C7BC909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD2DB7E-52BD-4096-99B0-78400C7BC909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD2DB7E-52BD-4096-99B0-78400C7BC909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD2DB7E-52BD-4096-99B0-78400C7BC909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84EC363B-CF66-442C-B89A-37BE7EE747F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EC363B-CF66-442C-B89A-37BE7EE747F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EC363B-CF66-442C-B89A-37BE7EE747F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EC363B-CF66-442C-B89A-37BE7EE747F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED56BB47-1923-484B-95CB-0B833FDF8B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED56BB47-1923-484B-95CB-0B833FDF8B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED56BB47-1923-484B-95CB-0B833FDF8B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED56BB47-1923-484B-95CB-0B833FDF8B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52FFC741-E34B-4F80-8AE4-013791E28CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FFC741-E34B-4F80-8AE4-013791E28CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FFC741-E34B-4F80-8AE4-013791E28CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FFC741-E34B-4F80-8AE4-013791E28CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB424419-A266-4988-885F-1492F7A6C7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB424419-A266-4988-885F-1492F7A6C7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB424419-A266-4988-885F-1492F7A6C7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB424419-A266-4988-885F-1492F7A6C7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94ACD57F-0504-4B3A-A555-51AEA710EFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94ACD57F-0504-4B3A-A555-51AEA710EFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94ACD57F-0504-4B3A-A555-51AEA710EFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94ACD57F-0504-4B3A-A555-51AEA710EFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED55A02C-041D-481D-A5C9-218EE9D611DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED55A02C-041D-481D-A5C9-218EE9D611DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED55A02C-041D-481D-A5C9-218EE9D611DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED55A02C-041D-481D-A5C9-218EE9D611DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04A4393-B9C5-4A89-8DD1-C728D52E6FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04A4393-B9C5-4A89-8DD1-C728D52E6FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04A4393-B9C5-4A89-8DD1-C728D52E6FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04A4393-B9C5-4A89-8DD1-C728D52E6FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035DF09D-FC7F-48CD-B935-A4BED6D09B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035DF09D-FC7F-48CD-B935-A4BED6D09B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035DF09D-FC7F-48CD-B935-A4BED6D09B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035DF09D-FC7F-48CD-B935-A4BED6D09B37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CD2DB7E-52BD-4096-99B0-78400C7BC909} = {BEE73A98-7D04-43EC-9C32-55155E405ACF}
+		{84EC363B-CF66-442C-B89A-37BE7EE747F3} = {AF66DA30-E1F0-4350-81A0-A1C92A19AD98}
+		{ED56BB47-1923-484B-95CB-0B833FDF8B3D} = {AF66DA30-E1F0-4350-81A0-A1C92A19AD98}
+		{52FFC741-E34B-4F80-8AE4-013791E28CF7} = {AF66DA30-E1F0-4350-81A0-A1C92A19AD98}
+		{DB424419-A266-4988-885F-1492F7A6C7B3} = {EF4BC2D1-F98C-44DF-823B-B0375B1C090D}
+		{94ACD57F-0504-4B3A-A555-51AEA710EFF0} = {67F6E2BB-6342-4D4D-A3FE-009074D53CB4}
+		{ED55A02C-041D-481D-A5C9-218EE9D611DB} = {67F6E2BB-6342-4D4D-A3FE-009074D53CB4}
+		{E04A4393-B9C5-4A89-8DD1-C728D52E6FD7} = {EF4BC2D1-F98C-44DF-823B-B0375B1C090D}
+		{035DF09D-FC7F-48CD-B935-A4BED6D09B37} = {67F6E2BB-6342-4D4D-A3FE-009074D53CB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44F830B3-424E-47CE-A6B7-EFF51A1B575B}
+	EndGlobalSection
+EndGlobal

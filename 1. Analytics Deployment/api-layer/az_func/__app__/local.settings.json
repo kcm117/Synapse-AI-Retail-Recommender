@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "FUNCTIONS_WORKER_RUNTIME": "python",
+      "SEARCH_KEY": "",
+      "SEARCH_SERVICE": "",
+      "AMLS_SERVICE_KEY": "",
+      "AzureWebJobsStorage": "",
+      "RECOMMENDATION_INDEX": "",
+      "PRODUCT_DETAIL_INDEX": "",
+      "SCORING_URL": ""
+    }
+  }

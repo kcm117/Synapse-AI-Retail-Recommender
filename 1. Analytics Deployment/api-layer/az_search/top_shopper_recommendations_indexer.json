@@ -1,0 +1,22 @@
+{
+    "name": "top-shopper-recommendations-indexer",
+    "description": "",
+    "dataSourceName": "top-shopper-sql-table-source",
+    "skillsetName": null,
+    "targetIndexName": "top-shopper-recommendations-index",
+    "disabled": null,
+    "schedule": {
+      "interval": "P1D",
+      "startTime": "2020-05-20T21:41:57Z"
+    },
+    "parameters": {
+      "batchSize": null,
+      "maxFailedItems": 0,
+      "maxFailedItemsPerBatch": 0,
+      "base64EncodeKeys": false,
+      "configuration": {}
+    },
+    "fieldMappings": [],
+    "outputFieldMappings": [],
+    "cache": null
+  }
