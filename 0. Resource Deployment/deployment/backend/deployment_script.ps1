@@ -44,3 +44,8 @@ $spark_pool = $resource_name + "sp"
  
 Write-Host "creating Spark pool"
 New-AzSynapseSparkPool -WorkspaceName $workspace_name -Name $spark_pool -NodeCount 3 -SparkVersion 2.4 -NodeSize Medium
+
+
+$file_path = Read-Host "directory path"
+Write-Host "uploading the dataset to the storage account"
+az storage blob upload-batch --destination $file_system --source $file_path --account-name $storage_account --destination-path dataset 

@@ -20,6 +20,7 @@ Below are paramaters you will use to create the necessary resources for this sol
 - Username: SQL user for Synapse workspace 
 - Password: SQL user for Synapse workspace (must be at least 8 characters)
 - Location: the location to deploy all the resources  
+- Directory Path: the directory path where the dataset is located  
 
 
 **Note:** You will be installing the Azure CLI extension for Azure Synapse 
